@@ -1,0 +1,28 @@
+import java.util.*;
+
+//Iterate Through a Set
+public class Iterate {
+
+    public static void main(String[] args){
+
+
+        Set<String> fruit = new HashSet<>(Arrays.asList("Apple", "Banana","Cherry"));
+
+        Iterator<String> getData = fruit.iterator();
+
+
+
+        for(Integer i = 0; i <= fruit.size() - 1; i++){
+
+
+            System.out.println(" "+getData.next());
+
+
+        }
+
+
+
+
+    }
+
+}
